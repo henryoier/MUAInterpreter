@@ -1,0 +1,1 @@
+可直接在命令行目录下键入java -jar MUA.jar运行

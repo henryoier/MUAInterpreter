@@ -1,0 +1,14 @@
+make "factor
+[
+  [n]
+ [test eq : n 1 iftrue [ output 1 stop ]
+  output mul : n factor sub : n 1 ] 
+]
+print factor 10
+
+make "fib 
+[[n]
+ [test or eq : n 1 eq : n 2
+ iftrue [ output 1 stop] output add fib sub : n 2 fib sub : n 1 ]
+]
+print fib 20
